@@ -432,6 +432,10 @@ footer{
   }
   .faq-container{
     display: none;
+    width: 400px
+  }
+  .faq-item{
+    width: inherit;
   }
 }
 
@@ -461,12 +465,20 @@ footer{
   .active{
     font-size: medium;
   }
-
+  
+  
+  .faq-container > h1{
+    font-size: 20px;
+}
   .show-hidden{
     display: flex;
   }
   .faq-container{
     display: none;
+    width: 400px;
+  }
+  .faq-item{
+    width: inherit;
   }
 }
 @media (max-width: 700px){
@@ -496,7 +508,10 @@ footer{
     font-size: medium;
   }
   .faq-container{
-    width: 80%;
+    width: 400px;
+  }
+  .faq-item{
+    width: inherit;
   }
   .faq-container > h1{
     font-size: 20px;
