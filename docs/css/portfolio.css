@@ -443,9 +443,7 @@ footer{
     font-size: medium;
   }
 }
-@media screen {
-  
-}
+
 @media (max-width: 515px) {
  
   .personal-blog{
@@ -467,7 +465,17 @@ footer{
   }
 }
 @media (max-width: 768px) {
-  
+  .menu {
+      display: flex;
+      height: inherit;
+      flex-direction: column;
+    }
+    .menu > li > a{
+      font-size: 12px;
+    }
+    .active{
+      font-size: medium;
+    }
 }
 @media (max-width: 414px) {
   .logo{
@@ -515,9 +523,17 @@ footer{
     border-radius: 100px;
     margin-left: 1px;
   }
-  .menu{
-    flex-direction: column;
-  }
+  .menu {
+      display: flex;
+      height: inherit;
+      flex-direction: column;
+    }
+    .menu > li > a{
+      font-size: 12px;
+    }
+    .active{
+      font-size: medium;
+    }
   .logo > img{
     height: inherit;
     width: inherit;
