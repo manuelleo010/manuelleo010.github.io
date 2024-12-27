@@ -156,3 +156,13 @@ h2{
     background: linear-gradient(750deg, lightgreen, lightblue);
   }
 }
+
+/*responsive*/
+@media (max-width: 768px) {
+  .container{
+  width: 80%;
+  height: 100vh;
+  padding: 1rem;
+  overflow: scroll;
+  }
+}
