@@ -159,6 +159,10 @@ h2{
 
 /*responsive*/
 @media (max-width: 768px) {
+  .heading{
+  font-size: 20px;
+}
+
   .container{
   width: 80%;
   height: 100vh;
