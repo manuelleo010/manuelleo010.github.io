@@ -8,11 +8,10 @@ body{
 .cal-body{
   height: 50vh;
   min-height: 400px;
-  width: 420px;
-  padding: 10px;
-  min-width: 300px;
+  width: 100%;
+  padding: 10px;
   background-color: #d4d4d4;
-  margin: 40px auto;
+  margin: auto;
   display: grid;
   grid-template-rows: 30% 70%;
   row-gap: 1px;
@@ -83,7 +82,7 @@ body{
   .cal-body{
   height: 100vh;
   min-height: 400px;
-  width: 200px;
+  width: 400px;
   padding: 10px;
   background-color: #d4d4d4;
   margin: 40px auto;
