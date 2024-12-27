@@ -159,10 +159,6 @@ h2{
 
 /*responsive*/
 @media (max-width: 768px) {
-  .heading{
-  font-size: 20px;
-}
-
   .container{
   width: 80%;
   height: 100vh;
@@ -171,4 +167,18 @@ h2{
   padding: 1rem;
   overflow: scroll;
   }
+  .heading{
+  font-size: 20px;
+}
+  .list-field .input-field{
+  width: 40%;
+  padding: 1rem;
+  }
+  .list-items{
+  width: 30%;
+  box-shadow: 0 0 5px;
+  justify-content: center;
+  padding: 1rem;
+}
+  
 }
