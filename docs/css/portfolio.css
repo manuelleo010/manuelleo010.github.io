@@ -390,6 +390,17 @@ footer{
   .header{
     height: 120px;
   }
+  .menu {
+      display: flex;
+      height: inherit;
+      flex-direction: column;
+    }
+    .menu > li > a{
+      font-size: 12px;
+    }
+    .active{
+      font-size: medium;
+    }
   .logo {
     margin-right: 10px;
     width: 50px;
@@ -408,20 +419,6 @@ footer{
     
   }
 
-  .menu {
-    display: flex;
-    height: inherit;
-    width: 45%;
-    flex-direction: column;
-    padding: 0px;
-  }
-  
-  .menu > li > a{
-    font-size: 12px;
-  }
-  .active{
-    font-size: small;
-  }
 
 
   .social-media > i{
@@ -451,6 +448,17 @@ footer{
     width: 255px;
     border-right:  1px solid #516fa9 ;
   }
+  .menu {
+      display: flex;
+      height: inherit;
+      flex-direction: column;
+    }
+    .menu > li > a{
+      font-size: 12px;
+    }
+    .active{
+      font-size: medium;
+    }
   .text{
     width: 78%;
     height: 350px;
@@ -482,9 +490,17 @@ footer{
     height: 30px;
     width: 30px;
   }
-  .menu{
-    flex-direction: column;
-  }
+  .menu {
+      display: flex;
+      height: inherit;
+      flex-direction: column;
+    }
+    .menu > li > a{
+      font-size: 12px;
+    }
+    .active{
+      font-size: medium;
+    }
 }
 @media (max-width: 430px){
   .header{
