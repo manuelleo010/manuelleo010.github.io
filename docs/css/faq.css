@@ -313,6 +313,34 @@ footer{
   .header{
     height: 120px;
   }
+  .menu {
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+    width: 40%;
+    padding: 0px;
+  }
+  .menu > li > a{
+    font-size: 12px;
+  }
+  
+  .active{
+    font-size: small;
+  }
+  .name{
+    font-size: medium;
+    width: 50px;
+
+  }
+
+
+  .social-media > i{
+    font-size: 10px;
+    margin-left: 0;
+  }
+
+}
+@media (max-width: 375px){
   .logo {
     margin-right: 10px;
     width: 50px;
@@ -330,30 +358,6 @@ footer{
     padding: 0px;
     
   }
-
-  .menu {
-    display: flex;
-    height: inherit;
-    width: 45%;
-    flex-direction: column;
-    padding: 0px;
-  }
-  
-  .menu > li > a{
-    font-size: 12px;
-  }
-  .active{
-    font-size: small;
-  }
-
-
-  .social-media > i{
-    font-size: 10px;
-    margin-left: 0;
-  }
-
-}
-@media (max-width: 375px){
   .menu {
     display: flex;
     height: inherit;
@@ -365,10 +369,16 @@ footer{
   .active{
     font-size: medium;
   }
+  footer{
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .social-media > i{
+    font-size: 10px;
+    margin-left: 0;
+  }
 }
-@media screen {
-  
-}
+
 @media (max-width: 515px) {
  
   .personal-blog{
@@ -389,9 +399,7 @@ footer{
     padding-left: 0px;
   }
 }
-@media (max-width: 768px) {
-  
-}
+
 @media (max-width: 414px) {
   .logo{
     height: 30px;
@@ -438,17 +446,59 @@ footer{
     border-radius: 100px;
     margin-left: 1px;
   }
-  .menu{
+  .logo > img{
+    height: inherit;
+    width: inherit;
+  }
+  .menu {
+    display: flex;
+    height: inherit;
     flex-direction: column;
+  }
+  .menu > li > a{
+    font-size: 12px;
+  }
+  .active{
+    font-size: medium;
+  }
+
+  .show-hidden{
+    display: flex;
+  }
+  .faq-container{
+    display: none;
+  }
+}
+@media (max-width: 700px){
+  .header{
+    height: 120px;
+  }
+  .logo {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-left: 1px;
   }
   .logo > img{
     height: inherit;
     width: inherit;
   }
+  .menu {
+    display: flex;
+    height: inherit;
+    flex-direction: column;
+  }
+  .menu > li > a{
+    font-size: 12px;
+  }
+  .active{
+    font-size: medium;
+  }
   .show-hidden{
     display: flex;
   }
-  .faq-container{
+  .project-page{
     display: none;
   }
 }
