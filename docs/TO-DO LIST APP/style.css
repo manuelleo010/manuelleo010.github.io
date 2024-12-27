@@ -162,6 +162,8 @@ h2{
   .container{
   width: 80%;
   height: 100vh;
+  grid-template-columns: 40% 30%;
+  grid-template-rows: 20% 25% 10% ;
   padding: 1rem;
   overflow: scroll;
   }
