@@ -173,7 +173,7 @@ body{
   width: 70%;
 }
 h2{
-  height: inherit;
+  height: 2rem;
   width: inherit;
 }
 .list-field{
