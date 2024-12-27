@@ -33,37 +33,17 @@ img{
   height: 500px;
   object-fit: fill;
 }
-@media (max-width : 572px) {
-  img{
-    width: 500px;
-    object-fit: cover;
+
+/*responsive*/
+@media (max-width: 768px) {
+  memeBody{
+    width: 90%;
+    height: 90vh
   }
-
-
+  img{
+  margin-top: 22px;
+  width: 300px;
+  height: 300px;
+  object-fit: fill;
 }
-@media (max-width : 506px) {
-  img{
-    width: 400px;
-    object-fit: cover;
-  }
-
-
-}
-@media (max-width : 211) {
-  img{
-    width: 60px;
-    height: 50px;
-    object-fit: cover;
-  }
-  .memeBody{
-    width: fit-content;
-    height: fit-content;
-    align-items: center;
-    justify-content: center;
-     display: flex;
-   flex-direction: column;
-   background: linear-gradient(lightgreen, lightyellow);
-     
-   }
-
 }
