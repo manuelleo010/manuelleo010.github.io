@@ -159,26 +159,53 @@ h2{
 
 /*responsive*/
 @media (max-width: 768px) {
-  .container{
-  width: 100%;
-  height: 100vh;
-  grid-template-columns: 50 50%;
-  grid-template-rows: 30% 40% 10% ;
-  padding: 1rem;
-  overflow: scroll;
-  }
-  .heading{
-  font-size: 20px;
+body{
+  display: block;
 }
-  .list-field .input-field{
+.container{
+  display: flex;
   width: 100%;
-  padding: 1rem;
-  }
-  .list-items{
-  width: 100%;
-  box-shadow: 0 0 5px;
+  height: 90vh;
+  flex-direction: column;
+}
+.heading{
+  height: 3rem;
+  width: 70%;
+}
+h2{
+  height: inherit;
+  width: inherit;
+}
+.list-field{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: inherit;
   justify-content: center;
-  padding: 1rem;
+  align-items: center;
 }
+.list-field .input-field{
+  display: flex;
+  height: 5rem;
+  width: 100%;
+}
+.list-field #input-task{
+  flex: 2;
+  height: 2rem;
+  font-size: medium;
+}
+.list-field #add{
+  display: flex;
+  flex: 1;
+}
+
+
+.list-items{
+  
+  width: 90%;
+  height: 300px;
+ 
+}
+ 
   
 }
