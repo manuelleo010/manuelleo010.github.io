@@ -498,7 +498,7 @@ footer{
   .faq-item{
     width: 70%;
   }
-  .faq-item > h2{
+  .faq-container > h1S{
     font-size: 20px;
   }
   .show-hidden{
