@@ -1,0 +1,158 @@
+body{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: url(public/OIP\ \(1\).jpg);
+  background-repeat: repeat;
+  
+}
+.container{
+  display: grid;
+  width: 100%;
+  height: 37rem;
+  grid-template-columns: 40rem 30rem;
+  grid-template-rows: 7rem 10rem 1rem ;
+  gap: 1rem;
+  padding: 2rem;
+  overflow: hidden;
+  
+}
+.heading{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  border-bottom: 20px solid;
+  border-top: 5px solid;
+}
+h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid;
+  color: white;
+  background: linear-gradient(70deg, grey, black);
+}
+.list-field{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  grid-row: 2;
+}
+.list-field .input-field{
+  display: flex;
+  height: 5rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  padding: 5px;
+  animation-name: changeColor;
+  animation: changeColor 4s infinite linear;
+
+}
+.list-field #input-task{
+  flex: 4;
+  height: 2rem;
+  margin-right: 0.5rem;
+  border-radius: 5rem;
+  padding: 0.5rem;
+  font-size: larger;
+
+}
+.list-field #add{
+  display: flex;
+  width: 5rem;
+  height: 2rem;
+  border: none;
+  font-size: xx-large;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.list-field #add:hover{
+  background: linear-gradient(60deg, purple,cyan);
+}
+
+.list-items{
+  grid-row: span 3;
+  overflow: scroll;
+  scrollbar-width: none;
+  width: 30rem;
+  box-shadow: 0 0 5px;
+  display: block;
+  justify-content: center;
+  padding: 1rem;
+}
+ 
+
+.task-container{
+  height: 2rem;
+  width: 90%;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px;
+  margin-bottom: 10px;
+}
+.lists{
+  flex: 3;
+  font-size: 1.5rem;
+  margin-right: 6rem;
+}
+.checked{
+  height: 2rem;
+  width: 3rem;
+  cursor: pointer;
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:  none;
+  box-shadow: 0 0 2px lightgreen;
+  background: linear-gradient(80deg, lightgreen,yellow);
+}
+.del{
+  margin-left: 0.2rem;
+  height: 2rem;
+  width: 3rem;
+  font-size: x-large;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 3px red;
+  background: linear-gradient(95deg, red , crimson);
+}
+ .del:hover{
+  opacity: 0.5;
+}
+.checked:hover{
+  opacity: o.5;
+}
+
+@keyframes changeColor {
+  0% {
+    background: linear-gradient(150deg, lightblue, lightgreen);
+  }
+  25% {
+    background: linear-gradient(300deg, lightgreen, orange);
+  }
+  50% {
+    background: linear-gradient(450deg, orange, yellow);
+  }
+  75% {
+    background: linear-gradient(600deg, yellow, lightgreen);
+  }
+  100% {
+    background: linear-gradient(750deg, lightgreen, lightblue);
+  }
+}

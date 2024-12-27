@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  
+}
+.container{
+  height: 600px;
+  width: 500px;
+  background: whitesmoke;
+  box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.container::-webkit-scrollbar{
+  display: none;
+}
+form{
+  padding: 7px;
+  position: relative;
+  border: none;
+}
+
+form #input-search{
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+.product{
+  display: flex;
+  flex-direction: row;
+}
+.product img{
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+}
+.product .description{
+  padding: 10px;
+}

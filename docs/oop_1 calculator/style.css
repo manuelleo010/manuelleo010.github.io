@@ -1,0 +1,80 @@
+body{
+  padding: 0;
+  margin:  0;
+}
+*{
+  box-sizing: border-box;
+}
+.cal-body{
+  height: 50vh;
+  min-height: 400px;
+  width: 420px;
+  padding: 10px;
+  min-width: 300px;
+  background-color: #d4d4d4;
+  margin: 40px auto;
+  display: grid;
+  grid-template-rows: 30% 70%;
+  row-gap: 1px;
+  border-radius: 20px;
+}
+.display-field{
+  background-color: black;
+  border-radius: 20px 20px 0 0;
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+.current-input, .hold-display{
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: x-large;
+}
+.cal-keys{
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-row: 50px 50px 50px 50px 50px;
+  gap: 1px;
+}
+.number, .clear, .del, .operation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+}
+.number, .operation{
+  background-color: slategrey;
+}
+.number:hover , .operation:hover, .clear:hover, .del:hoverc{
+  opacity: 0.5;
+}
+.clear, .del{
+  grid-row-start: 1;
+  grid-column: span 2;
+}
+.clear{
+  background-color: coral;
+}
+.del{
+  background-color: blueviolet;
+}
+.number:nth-child(12){
+  grid-row-start: 2;
+  grid-column-start: 4;
+  
+}
+.number:nth-child(13){
+  grid-row-start: 3;
+  grid-column-start: 4;
+}
+.number:nth-child(14){
+  grid-row-start: 4;
+  grid-column-start: 4;
+  
+}
+

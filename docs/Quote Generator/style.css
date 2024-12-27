@@ -1,0 +1,51 @@
+body{
+  padding: 0;
+  margin: 0;
+  
+}
+
+.quote-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 50vh;
+  background-color: aqua;
+  align-self: center;
+  justify-self: center;
+  margin-top: 10rem;
+  box-shadow: 0 0 2px 2px black;
+  padding: 2rem;
+}
+q{
+  font-size: 20px;
+}
+.image{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.image img{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+#q-button{
+  margin-top: 2rem;
+  height: 30px;
+  border-radius: 25px;
+  border: none;
+  padding: 0.5rem;
+  background: linear-gradient(75deg, purple, pink);
+  font-size: 15px;
+  cursor: pointer;
+  transition: 3px;
+}
+
+#q-button:hover{
+  background: linear-gradient(125deg, purple, pink);
+}
