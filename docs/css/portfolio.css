@@ -221,6 +221,7 @@ section{
   display: none;
   animation: swipe 3s infinite linear;
   transition: transform 2s;
+  cursor: pointer;
 }
 
 @keyframes swipe {
@@ -607,5 +608,13 @@ footer{
   }
   .project-page{
     display: none;
+    width: 100%;
+  }
+  .search-bar{
+    margin-left: 1rem;
+  }
+  .search-bar > input{
+    height: 30px;
+    width: 150px;
   }
 }
