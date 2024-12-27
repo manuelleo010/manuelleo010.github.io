@@ -432,7 +432,7 @@ footer{
   }
   .faq-container{
     display: none;
-    width: 400px
+    width: 350px
   }
   .faq-item{
     width: inherit;
@@ -475,7 +475,7 @@ footer{
   }
   .faq-container{
     display: none;
-    width: 400px;
+    width: 350px;
   }
   .faq-item{
     width: inherit;
@@ -508,7 +508,7 @@ footer{
     font-size: medium;
   }
   .faq-container{
-    width: 400px;
+    width: 350px;
   }
   .faq-item{
     width: inherit;
