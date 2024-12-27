@@ -495,12 +495,12 @@ footer{
   .active{
     font-size: medium;
   }
-  .faq-item{
-    width: 70%;
+  .faq-container{
+    width: 80%;
   }
-  .faq-container > h1S{
+  .faq-container > h1{
     font-size: 20px;
-  }
+}
   .show-hidden{
     display: flex;
   }
