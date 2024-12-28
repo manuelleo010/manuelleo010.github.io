@@ -522,4 +522,8 @@ footer{
   .project-page{
     display: none;
   }
+  .social-media > i{
+    font-size: 10px;
+    margin-left: 0;
+  }
 }
