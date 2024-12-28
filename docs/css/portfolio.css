@@ -197,13 +197,13 @@ section{
   border-radius: 10px;
 }
 .lang-list > li:nth-child(4){
-  width: 40%;
+  width: 60%;
   background-color:coral;
   padding-left: 1rem;
   border-radius: 10px;
 }
 .lang-list > li:nth-child(5){
-  width: 30%;
+  width: 60%;
   background-color: royalblue;
   padding-left: 1rem;
   border-radius: 10px;
