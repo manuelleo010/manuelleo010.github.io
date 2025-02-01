@@ -243,8 +243,8 @@ section{
   height: 98.1%;
   width: 80%;
   background-color: var(--footer-clr);
-  margin-left: 1rem;
-  padding-left: 1rem;
+  margin-left: 0.5rem;
+  padding: 1rem;
 }
 .search-bar{
   width: inherit;
@@ -292,7 +292,6 @@ section{
   width: 98%;
   overflow: hidden;
   background-color: var(--blueblack-clr);
-  padding: 1rem;
   position: relative;
 }
 .slider{
