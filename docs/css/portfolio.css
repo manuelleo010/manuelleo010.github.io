@@ -607,6 +607,7 @@ footer{
   .project-page{
     display: none;
     width: 100%;
+    padding: 1rem;
   }
   .search-bar{
     margin-left: 1rem;
