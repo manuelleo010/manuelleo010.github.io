@@ -8,7 +8,7 @@ body{
 .cal-body{
   height: 50vh;
   min-height: 400px;
-  width: fit-content;
+  width: 60%;
   padding: 10px;
 
   background-color: #d4d4d4;
