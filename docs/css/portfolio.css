@@ -329,6 +329,7 @@ section{
   color: var(--white-clr);
   top: 50%;
   cursor: pointer;
+  z-index: 2;
 }
 .forward{
   left: 90%;
@@ -608,6 +609,7 @@ footer{
     display: none;
     width: 100%;
     padding: 1rem;
+    z-index: 1;
   }
   .search-bar{
     margin-left: 1rem;
