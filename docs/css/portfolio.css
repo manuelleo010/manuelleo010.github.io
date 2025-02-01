@@ -611,6 +611,9 @@ footer{
     padding: 1rem;
     z-index: 1;
   }
+  .forward{
+  left: 85%;
+}
   .search-bar{
     margin-left: 1rem;
   }
